@@ -6,7 +6,7 @@
 /*   By: pierre <pleroux@student.42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/28 09:51:35 by pierre            #+#    #+#             */
-/*   Updated: 2018/06/28 10:53:02 by pierre           ###   ########.fr       */
+/*   Updated: 2018/06/28 11:01:25 by pierre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,6 @@ int		main(int ac, char **av)
 	ft_printf("Key %d:%c ; string |%s|\n", key, key, strres);
 	ft_strdel(&strtmp);
 	ft_strdel(&strres);
+	ft_strdel(&str);
 	return 0;
 }
